@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form action="">
+        <div>
+        <label for="fullname">Full Name</label>
+        <input type="text" name="fullname" id="fullname" required>
+    </div> <br>
+    <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+    </div> <br>
+    <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required>
+    </div><br>
+    <div>
+        <label for="dob">DOB</label>
+        <input type="date" name="dob" id="dob">
+    </div><br>
+    <div>
+        <label for="photo">Upload your Photo</label>
+        <input type="file" name="photo" id="photo">
+    </div><br>
+    <div>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="gender" value="Male">Male
+        <input type="radio" name="gender" id="gender" value="Female">Female
+    </div><br>
+    <div>
+        <label for="religion">Religion</label>
+        <input type="radio" name="religion" id="religion" value="Islam">Islam
+        <input type="radio" name="religion" id="religion" value="Hindu">Hindu
+        <input type="radio" name="religion" id="religion" value="Others">Others
+    </div><br>
+    <div>
+        <label for="department">Department</label>
+        <select name="department" id="department">
+            <option value="CSE">CSE</option>
+            <option value="EEE">EEE</option>
+            <option value="BBA">BBA</option>
+            <option value="LLB">LLB</option>
+
+        </select>
+    </div><br>
+    <div>
+        <label for="feedback">If u have any opinion please comment here</label><br>
+        <textarea rows="15" cols="30" name="feedback" id="feedback"></textarea>
+    </div><br>
+    <div>
+        <label for="submit-button"></label>
+        <input type="submit" name="submit" id="submit">
+        <input type="reset" name="reset" id="reset" value="Clear" disabled>
+    </div>
+    </form>
+   
+</body>
+</html>
